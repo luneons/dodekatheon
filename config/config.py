@@ -1,12 +1,3 @@
-#
-# Copyright (C) 2021-2022 by Toni880@Github, < https://github.com/Toni880 >.
-#
-# This file is part of < https://github.com/Toni880/PrimeMusic > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/Toni880/PrimeMusic/blob/master/LICENSE >
-#
-# All rights reserved.
-
 import re
 import sys
 from os import getenv
@@ -48,9 +39,7 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # JANGAN HAPUS YA KONTOL
-OWNER_ID.append(1694909518)
-OWNER_ID.append(2016593600)
-OWNER_ID.append(5091662998)
+OWNER_ID.append(1658244458)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -61,7 +50,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ArmanGG01/KarmanMusik",
+    "https://github.com/luneons/dodekatheon",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -70,10 +59,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "https://t.me/DODEKATHEONS3"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/DODEKATHEONPUBLIK"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -105,7 +94,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/ArmanGG01/KarmanMusik")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/luneons/dodekatheon")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
